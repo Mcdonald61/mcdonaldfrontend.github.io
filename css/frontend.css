@@ -20,7 +20,7 @@ display: flex;
 }
 h1{
     position: absolute;
-    right: 419px;
+    right: 405px;
     top: 30%;
     color:hsl(271, 36%, 24%);
 }
@@ -33,7 +33,16 @@ h1{
         width: 300px;
     }
  }
-  
+ @media screen and (max-width: 1025px) {
+    .simple{
+     right: 280px;
+    }
+ }
+ @media screen and (max-width: 768px) {
+    .simple{
+     right: 150px;
+    }
+ }
 p{
     position: absolute;
     left: 50%;
@@ -48,7 +57,7 @@ p{
    .write{
        position: absolute;
        top: 800px;
-       left: 30px;
+       left: 0px;
        font-size: 14px;
        text-align: center;
        overflow: hidden;
